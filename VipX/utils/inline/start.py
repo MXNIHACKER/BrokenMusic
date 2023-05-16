@@ -61,11 +61,5 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
                 text="🥀𝐔𝐏𝐃𝐀𝐓𝐄𝐒🥀", url=f"https://t.me/{YOUR_CHANNEL}",
             )
         ],
-        [
-            InlineKeyboardButton(
-                text="🌱ѕσʋяcɛ🌱",
-                url=f"https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
-            )
-        ],
      ]
     return buttons
