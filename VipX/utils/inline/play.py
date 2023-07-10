@@ -276,6 +276,14 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
         ],
 
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
+                
+            ),
+            
+        ],
+
     ]
 
     return buttons
@@ -549,6 +557,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
 
         ],
 
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
+
+            ),
+
+        ],
+
     ]
 
     return buttons
@@ -623,6 +639,14 @@ def stream_markup(_, videoid, chat_id):
 
         ],
 
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
+
+            ),
+
+        ],
+
     ]
 
     return buttons
@@ -674,6 +698,14 @@ def telegram_markup(_, chat_id):
                 text="10》",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
 
@@ -743,6 +775,14 @@ def track_markup(_, videoid, user_id, channel, fplay):
 
         ],
 
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
+
+            ),
+
+        ],
+
     ]
 
     return buttons
@@ -779,6 +819,14 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
                 text=_["CLOSEMENU_BUTTON"],
 
                 callback_data=f"forceclose {videoid}|{user_id}",
+
+            ),
+
+        ],
+
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
 
@@ -829,6 +877,14 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
                 text=_["CLOSE_BUTTON"],
 
                 callback_data=f"forceclose {videoid}|{user_id}",
+
+            ),
+
+        ],
+
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
 
@@ -906,6 +962,14 @@ def slider_markup(
 
         ],
 
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
+
+            ),
+
+        ],
+
     ]
 
     return buttons
@@ -921,6 +985,14 @@ close_keyboard = InlineKeyboardMarkup(
                     InlineKeyboardButton(
 
                         text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
+
+                    ),
+
+                ],
+
+                [
+                    InlineKeyboardButton(
+                        text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
                     )
 
@@ -997,6 +1069,14 @@ def queue_markup(_, videoid, chat_id):
                 text="10》",
 
                 callback_data=f"ADMIN 2|{chat_id}",
+
+            ),
+
+        ],
+
+        [
+            InlineKeyboardButton(
+                text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
 
