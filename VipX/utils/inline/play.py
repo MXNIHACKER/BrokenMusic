@@ -219,64 +219,15 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
             ),
           ],
-          [
-            InlineKeyboardButton(
-
-                text="▷",
-
-                callback_data=f"ADMIN Resume|{chat_id}",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-
-            ),
-
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
             
-
+          [
+              
             InlineKeyboardButton(
 
                 text="ᴄʟᴏsᴇ", callback_data=f"close",
 
             ),
 
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
                 
@@ -499,66 +450,18 @@ def telegram_markup_timer(_, chat_id, played, dur):
                 url=f"https://t.me/{app.username}?startgroup=true",
 
             ),
-            ],
-            [
-            InlineKeyboardButton(
-
-                text="▷",
-
-                callback_data=f"ADMIN Resume|{chat_id}",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-
-            ),
-
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
             
+            ],
+            
+            [
 
-            InlineKeyboardButton(
+                InlineKeyboardButton(
 
                 text="ᴄʟᴏsᴇ", callback_data=f"close",
 
             ),
 
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
-            InlineKeyboardButton(
+                InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
@@ -574,72 +477,25 @@ def stream_markup(_, videoid, chat_id):
     buttons  = [   
 
             [
-            InlineKeyboardButton(
+                InlineKeyboardButton(
 
                 text=_["S_B_5"],
 
                 url=f"https://t.me/{app.username}?startgroup=true",
 
             ),
+                
             ],
+        
             [
-            InlineKeyboardButton(
-
-                text="▷",
-
-                callback_data=f"ADMIN Resume|{chat_id}",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-
-            ),
-
-        ],
-
-        [
-
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
             
-
-            InlineKeyboardButton(
+               InlineKeyboardButton(
 
                 text="ᴄʟᴏsᴇ", callback_data=f"close",
 
             ),
 
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
+            
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -664,28 +520,6 @@ def telegram_markup(_, chat_id):
             ),
             ],
             [
-            InlineKeyboardButton(
-                text="▷",
-                callback_data=f"ADMIN Resume|{chat_id}",
-            ),
-            InlineKeyboardButton(
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-            ),
-        ],
-        [
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
             
             InlineKeyboardButton(
 
@@ -693,17 +527,7 @@ def telegram_markup(_, chat_id):
 
             ),
 
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
+            
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -748,34 +572,7 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
 
         [
-
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
-            
-
-            InlineKeyboardButton(
-
-                text="ᴄʟᴏsᴇ", callback_data=f"close",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
+  
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -880,9 +677,7 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
 
             ),
 
-        ],
-
-        [
+        
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -936,13 +731,6 @@ def slider_markup(
 
         [
 
-            InlineKeyboardButton(
-
-                text="◁",
-
-                callback_data=f"slider B|{query_type}|{query}|{user_id}|{channel}|{fplay}",
-
-            ),
 
             InlineKeyboardButton(
 
@@ -952,17 +740,7 @@ def slider_markup(
 
             ),
 
-            InlineKeyboardButton(
-
-                text="▷",
-
-                callback_data=f"slider F|{query_type}|{query}|{user_id}|{channel}|{fplay}",
-
-            ),
-
-        ],
-
-        [
+            
             InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -988,9 +766,7 @@ close_keyboard = InlineKeyboardMarkup(
 
                     ),
 
-                ],
-
-                [
+                
                     InlineKeyboardButton(
                         text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
@@ -1018,64 +794,14 @@ def queue_markup(_, videoid, chat_id):
             ),
             ],
             [
-            InlineKeyboardButton(
-
-                text="▷",
-
-                callback_data=f"ADMIN Resume|{chat_id}",
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="II", callback_data=f"ADMIN Pause|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"
-
-            ),
-
-            InlineKeyboardButton(
-
-                text="▢", callback_data=f"ADMIN Stop|{chat_id}"
-
-            ),
-
-        ],
-
-        [  
-
-            InlineKeyboardButton(
-
-                text="《10",
-
-                callback_data=f"ADMIN 1|{chat_id}",
-
-            ),
-
             
-
-            InlineKeyboardButton(
-
+                InlineKeyboardButton(
+   
                 text="ᴄʟᴏsᴇ", callback_data=f"close",
 
             ),
 
-            InlineKeyboardButton(
-
-                text="10》",
-
-                callback_data=f"ADMIN 2|{chat_id}",
-
-            ),
-
-        ],
-
-        [
-            InlineKeyboardButton(
+                 InlineKeyboardButton(
                 text="🥀 sᴜᴩᴩᴏʀᴛ 🥀", url=f"https://t.me/ro_yalworld",
 
             ),
