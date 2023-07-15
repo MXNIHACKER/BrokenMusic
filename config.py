@@ -111,7 +111,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "01")
+    getenv("CLEANMODE_MINS", "1")
 )  # Remember to give value in Seconds
 
 
@@ -162,66 +162,66 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/042f8f911147efe636df7.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
     "GLOBAL_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
     "TELEGRAM_AUDIO_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 TELEGRAM_VIDEO_URL = getenv(
     "TELEGRAM_VIDEO_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 SOUNCLOUD_IMG_URL = getenv(
     "SOUNCLOUD_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 YOUTUBE_IMG_URL = getenv(
     "YOUTUBE_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 SPOTIFY_ARTIST_IMG_URL = getenv(
     "SPOTIFY_ARTIST_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 SPOTIFY_ALBUM_IMG_URL = getenv(
     "SPOTIFY_ALBUM_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/664991ed7415e256d966f.jpg",
 )
 
 SPOTIFY_PLAYLIST_IMG_URL = getenv(
     "SPOTIFY_PLAYLIST_IMG_URL",
-    "https://te.legra.ph/file/042f8f911147efe636df7.jpg",
+    "https://te.legra.ph/file/cc4fdf71f157a7d89ba7c.jpg",
 )
 
 
