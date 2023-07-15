@@ -111,7 +111,7 @@ PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 # Cleanmode time after which bot will delete its old messages from chats
 CLEANMODE_DELETE_MINS = int(
-    getenv("CLEANMODE_MINS", "50")
+    getenv("CLEANMODE_MINS", "01")
 )  # Remember to give value in Seconds
 
 
