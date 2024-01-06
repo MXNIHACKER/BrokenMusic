@@ -31,18 +31,18 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/THE-VIP-BOY-OP/VIP-MUSIC",
+    "https://github.com/MXNIHACKER/BrokenMusic",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/VIP_CREATORS")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TG_FRIENDSS")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Devils_Hell_0")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Team_Hunter_X")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -68,12 +68,20 @@ STRING4 = getenv("STRING_SESSION4", None)
 STRING5 = getenv("STRING_SESSION5", None)
 
 
-#    __      _______ _____    ___  __ _    _  _____ _____ _____   _____   ____ _______ 
-#    \ \    / /_   _|  __ \   |  \/  | |  | |/ ____|_   _/ ____|  |  _ \ / __ \__   __|
-#     \ \  / /  | | | |__) |  | \  / | |  | | (___   | || |       | |_) | |  | | | |   
-#      \ \/ /   | | |  ___/   | |\/| | |  | |\___ \  | || |       |  _ <| |  | | | |   
-#       \  /   _| |_| |       | |  | | |__| |____) |_| || |____   | |_) | |__| | | |   
-#        \/   |_____|_|       |_|  |_|\____/|_____/|_____\_____|  |____/ \____/  |_|   
+   
+# ██████╗░██████╗░░█████╗░██╗░░██╗███████╗███╗░░██╗
+# ██╔══██╗██╔══██╗██╔══██╗██║░██╔╝██╔════╝████╗░██║
+# ██████╦╝██████╔╝██║░░██║█████═╝░█████╗░░██╔██╗██║
+# ██╔══██╗██╔══██╗██║░░██║██╔═██╗░██╔══╝░░██║╚████║
+# ██████╦╝██║░░██║╚█████╔╝██║░╚██╗███████╗██║░╚███║
+# ╚═════╝░╚═╝░░╚═╝░╚════╝░╚═╝░░╚═╝╚══════╝╚═╝░░╚══╝
+# 
+#      ███╗░░░███╗██╗░░░██╗░██████╗██╗░█████╗░
+#      ████╗░████║██║░░░██║██╔════╝██║██╔══██╗
+#      ██╔████╔██║██║░░░██║╚█████╗░██║██║░░╚═╝
+#      ██║╚██╔╝██║██║░░░██║░╚═══██╗██║██║░░██╗
+#      ██║░╚═╝░██║╚██████╔╝██████╔╝██║╚█████╔╝
+#      ╚═╝░░░░░╚═╝░╚═════╝░╚═════╝░╚═╝░╚════╝░
 
 
 
@@ -87,21 +95,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "START_IMG_URL", "https://te.legra.ph/file/07b7feeb199b6dc599a74.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+    "PING_IMG_URL", "https://te.legra.ph/file/0661f62601d0decde581f.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/ecdeac045f4045c198bd6.jpg"
+PLAYLIST_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+STATS_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+STREAM_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+YOUTUBE_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/f1e2fce89f46e84e46207.jpg"
 
 
 def time_to_seconds(time):
