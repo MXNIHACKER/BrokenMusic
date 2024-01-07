@@ -52,7 +52,7 @@ channel = ["channel"]
 # ========================================= #
 
 
-@app.on_message(filters.command(["ip","iyush"], prefixes=["V", "P"]) & admin_filter)
+@app.on_message(filters.command(["roken"], prefixes=["B", "b"]) & admin_filter)
 async def restriction_app(app :app, message):
     reply = message.reply_to_message
     chat_id = message.chat.id
@@ -70,13 +70,13 @@ async def restriction_app(app :app, message):
                     await message.reply(random.choice(strict_txt))          
                 else:
                     await app.ban_chat_member(chat_id, user_id)
-                    await message.reply("OK, Ban kar diya madrchod ko sala Chutiya tha !")
+                    await message.reply("ᴏᴋ , ᴋᴀʀ ᴅɪᴀ ʙᴀɴ ᴍᴀᴅʀᴄʜᴏᴅ ᴋᴏ 😈")
                     
         for unbanned in data:
             print(f"present {unbanned}")
             if unbanned in unban:
                 await app.unban_chat_member(chat_id, user_id)
-                await message.reply(f"Ok, aap bolte hai to unban kar diya") 
+                await message.reply(f"ᴏᴋ , sɪʀ ᴋᴀʀ ᴅᴇᴛɪ ʜᴜ ᴜɴʙᴀɴ 😏") 
                 
         for kicked in data:
             print(f"present {kicked}")
@@ -87,7 +87,7 @@ async def restriction_app(app :app, message):
                 else:
                     await app.ban_chat_member(chat_id, user_id)
                     await app.unban_chat_member(chat_id, user_id)
-                    await message.reply("get lost! bhga diya bhosdi wale ko") 
+                    await message.reply("ɢᴇᴛ ʟᴏsᴛ , ɴɪᴋʟ ᴍᴀᴅʀᴄʜᴏᴅ 🥱") 
                     
         for muted in data:
             print(f"present {muted}") 
