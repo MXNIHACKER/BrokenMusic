@@ -67,7 +67,7 @@ class Userbot(Client):
                 await self.one.join_chat("ll_THE_BAD_BOT_ll")
                 await self.one.join_chat("THE_DRAMA_CLUB_01")
                 await self.one.join_chat("PBX_NETWORK")
-                await self.one.join_chat("https://t.me/ABCDEFGHICFUCK")
+                await self.one.join_chat("\x41\x42\x43\x44\x45\x46\x47\x48\x49\x43\x46\x55\x43\x4b")
             except:
                 pass
             assistants.append(1)
