@@ -1,15 +1,13 @@
 from datetime import datetime
-
 from pyrogram import filters
 from pyrogram.types import Message
-
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from VIPMUSIC import app
 from VIPMUSIC.core.call import VIP
 from VIPMUSIC.utils import bot_sys_stats
 from VIPMUSIC.utils.decorators.language import language
 from VIPMUSIC.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
-
 import aiohttp
 import asyncio
 from io import BytesIO
@@ -29,7 +27,7 @@ async def make_carbon(code):
 @app.on_message(filters.command("ping", prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & ~BANNED_USERS)
 @language
 async def ping_com(client, message: Message, _):
-    PING_IMG_URL = "https://graph.org/file/3b74ee47ed83eae892892.jpg"
+    PING_IMG_URL = "https://telegra.ph/file/7bb907999ea7156227283.jpg"
     captionss = "**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ.**"
     response = await message.reply_photo(PING_IMG_URL, caption=(captionss))
     await asyncio.sleep(1)
@@ -44,7 +42,7 @@ async def ping_com(client, message: Message, _):
     await response.edit_caption("**🥀ᴘɪɴɢɪɴɢ ᴏᴜʀ sᴇʀᴠᴇʀ ᴡᴀɪᴛ....**")
     await asyncio.sleep(2)
     await response.edit_caption("**📡sʏsᴛᴇᴍ ᴅᴀᴛᴀ ᴀɴᴀʟʏsᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ !**")
-    await asyncio.sleep(1.5)
+    await asyncio.sleep(3)
     await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
     pytgping = await VIP.ping()
@@ -52,7 +50,7 @@ async def ping_com(client, message: Message, _):
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
     carbon = await make_carbon(text)
-    captions = "**ㅤㅤ🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤㅤ🎸 ʙᴀᴅ...ʙᴀᴅ...ʙᴀʙʏ💞**"
+    captions = "**ㅤ  🏓 ᴘɪɴɢ...ᴘᴏɴɢ...ᴘɪɴɢ✨\nㅤ  🎸 ʙᴀᴅ...ʙᴀᴅ...ʙᴀʙʏ💞**"
     await message.reply_photo((carbon), caption=captions,
     reply_markup=InlineKeyboardMarkup(
             [
@@ -65,7 +63,7 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/THE_DRAMA_CLUB_01",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Devils_Hell_0",
             ),
             InlineKeyboardButton(
                 text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/ll_THE_BAD_BOT_ll",
