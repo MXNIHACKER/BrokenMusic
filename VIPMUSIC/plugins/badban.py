@@ -98,14 +98,14 @@ async def restriction_app(app :app, message):
                 else:
                     permissions = ChatPermissions(can_send_messages=False)
                     await message.chat.restrict_member(user_id, permissions)
-                    await message.reply(f"muted successfully! Disgusting people.") 
+                    await message.reply(f"ᴄʜᴜᴘ ᴋᴀʀ ʟᴏᴠᴅᴇ 😤") 
                     
         for unmuted in data:
             print(f"present {unmuted}")            
             if unmuted in unmute:
                 permissions = ChatPermissions(can_send_messages=True)
                 await message.chat.restrict_member(user_id, permissions)
-                await message.reply(f"Huh, OK, sir!")   
+                await message.reply(f"ᴏʜ ! ᴏᴋᴀʏ sɪʀ ☺️")   
 
 
         for promoted in data:
@@ -122,7 +122,7 @@ async def restriction_app(app :app, message):
                     can_manage_video_chats=True,
                        )
                      )
-                await message.reply("promoted !")
+                await message.reply("ᴀᴅᴍɪɴ ʙɴᴀ ᴅɪᴀ ʜᴀɪ ᴘʟᴢ ᴍᴇᴍʙᴇʀ ᴀᴅ ᴋᴀʀ ᴅᴇɴᴀ ᴛʜᴀɴᴋᴜ ❤️")
 
         for demoted in data:
             print(f"present {demoted}")            
@@ -138,4 +138,4 @@ async def restriction_app(app :app, message):
                     can_manage_video_chats=False,
                        )
                      )
-                await message.reply("demoted !")
+                await message.reply("ᴄʜᴜᴘ ᴋᴀʀ ᴋᴇ ʙᴇᴛʜᴀ ʀᴀʜ ʟᴏᴠᴅᴇ ᴀʙʜɪ ᴀᴅᴍɪɴ sᴇ ʜᴀᴛɪᴀ ʜᴀɪ ɪs ᴋᴇ ʙᴀᴀᴅ sɪᴅᴀ ɢʀᴏᴜᴘ sᴇ ʟᴀᴛ ᴍᴀʀ ᴋᴇ ɴɪᴋᴀʟ ᴅᴇɢᴇ 🤧 ")
