@@ -99,6 +99,9 @@ def help_back_markup(_):
                 ),
                 InlineKeyboardButton(
                     text="★ ɱᴏʀε ★", callback_data="help_callback hb14"
+                ),      
+                InlineKeyboardButton(
+                    text="★ ɱᴏʀε ★", callback_data="help_callback hb14"
                 )
 
             ]
