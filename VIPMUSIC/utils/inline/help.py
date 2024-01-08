@@ -99,7 +99,7 @@ def help_back_markup(_):
                 ),
                 InlineKeyboardButton(
                     text="★ ɱᴏʀε ★", callback_data="help_callback hb14"
-                )      
+                )
 
             ]
         ]
@@ -117,3 +117,4 @@ def private_help_panel(_):
         ],
     ]
     return buttons
+    
