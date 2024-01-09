@@ -21,7 +21,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER(__name__).error("𝐀𝐁𝐄 𝐑𝐀𝐍𝐃𝐈 𝐊𝐄 𝐁𝐀𝐂𝐇𝐄 𝐄𝐃𝐈𝐓 𝐊𝐀𝐑 𝐋𝐀𝐈 𝐍𝐀 𝐑𝐄𝐏𝐎 🤬")
+        LOGGER(__name__).error("𝗔𝗕𝗘 𝗟𝗢𝗗𝗘 𝗦𝗧𝗥𝗜𝗡𝗚 𝗧𝗘𝗥𝗔 𝗕𝗔𝗣 𝗗𝗔𝗟𝗘 𝗚𝗔 𝗞𝗬𝗔 😑")
         
     await sudo()
     try:
@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("VIPMUSIC.plugins" + all_module)
-    LOGGER("VIPMUSIC.plugins").info("𝐁𝐇𝐀𝐊 𝐁𝐇𝐄𝐍𝐂𝐇𝐎𝐃 𝐀𝐁 𝐍𝐇𝐈.𝐂𝐇𝐀𝐋𝐄 𝐆𝐀 🖕🏻 ...")
+    LOGGER("VIPMUSIC.plugins").info("𝗔𝗕𝗘 𝗥𝗔𝗡𝗗𝗜 𝗞𝗘 𝗕𝗔𝗖𝗛𝗘 𝗥𝗘𝗣𝗢 𝗘𝗗𝗜𝗧 𝗞𝗔𝗥 𝗟𝗜𝗔  👿 ...")
     await userbot.start()
     await VIP.start()
     await VIP.decorators()
