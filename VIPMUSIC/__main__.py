@@ -36,7 +36,7 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("VIPMUSIC.plugins" + all_module)
-    LOGGER("VIPMUSIC.plugins").info("𝐁𝐀𝐂𝐊 𝐁𝐇𝐄𝐍𝐂𝐇𝐎𝐃 𝐀𝐁 𝐍𝐇𝐈.𝐂𝐇𝐀𝐋𝐄 𝐆𝐀 🖕🏻 ...")
+    LOGGER("VIPMUSIC.plugins").info("𝐁𝐇𝐀𝐊 𝐁𝐇𝐄𝐍𝐂𝐇𝐎𝐃 𝐀𝐁 𝐍𝐇𝐈.𝐂𝐇𝐀𝐋𝐄 𝐆𝐀 🖕🏻 ...")
     await userbot.start()
     await VIP.start()
     await VIP.decorators()
