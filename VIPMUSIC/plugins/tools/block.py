@@ -28,7 +28,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command("source")
+    filters.command("donate")
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
@@ -45,7 +45,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command("repo")
+    filters.command("donate")
     & filters.private)
 async def help(client: Client, message: Message):
     await message.reply_photo(
