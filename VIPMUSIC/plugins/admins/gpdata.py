@@ -5,7 +5,7 @@ from VIPMUSIC import app
 from config import OWNER_ID
 from VIPMUSIC.misc import SUDOERS
 from pyrogram.types import Message
-from VIPMUSIC.utils.vip_ban import admin_filter
+from VIPMUSIC.utils.bad_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 
