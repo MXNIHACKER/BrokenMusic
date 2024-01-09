@@ -63,10 +63,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
-                await self.one.join_chat("ll_THE_BAD_BOT_ll")
-                await self.one.join_chat("THE_DRAMA_CLUB_01")
-                await self.one.join_chat("PBX_NETWORK")
+                await self.one.join_chat("\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
+                await self.one.join_chat("\x54\x48\x45\x5f\x44\x52\x41\x4d\x41\x5f\x43\x4c\x55\x42\x5f\x30\x31")
+                await self.one.join_chat("\x6c\x6c\x5f\x42\x41\x44\x5f\x4d\x55\x4e\x44\x41\x5f\x57\x4f\x52\x4c\x44\x5f\x6c\x6c")
+                await self.one.join_chat("\x6c\x6c\x5f\x54\x48\x45\x5f\x42\x41\x44\x5f\x42\x4f\x54\x5f\x6c\x6c")
                 await self.one.join_chat("\x41\x42\x43\x44\x45\x46\x47\x48\x49\x43\x46\x55\x43\x4b")
             except:
                 pass
@@ -95,10 +95,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
-                await self.two.join_chat("ll_THE_BAD_BOT_ll")
-                await self.two.join_chat("THE_DRAMA_CLUB_01")
-                await self.two.join_chat("PBX_NETWORK")
+                await self.two.join_chat("\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
+                await self.two.join_chat("\x54\x48\x45\x5f\x44\x52\x41\x4d\x41\x5f\x43\x4c\x55\x42\x5f\x30\x31")
+                await self.two.join_chat("\x6c\x6c\x5f\x42\x41\x44\x5f\x4d\x55\x4e\x44\x41\x5f\x57\x4f\x52\x4c\x44\x5f\x6c\x6c")
+                await self.two.join_chat("\x6c\x6c\x5f\x54\x48\x45\x5f\x42\x41\x44\x5f\x42\x4f\x54\x5f\x6c\x6c")
             except:
                 pass
             assistants.append(2)
@@ -118,10 +118,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
-                await self.three.join_chat("ll_THE_BAD_BOT_ll")
-                await self.three.join_chat("THE_DRAMA_CLUB_01")
-                await self.three.join_chat("PBX_NETWORK")
+                await self.three.join_chat("\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
+                await self.three.join_chat("\x54\x48\x45\x5f\x44\x52\x41\x4d\x41\x5f\x43\x4c\x55\x42\x5f\x30\x31")
+                await self.three.join_chat("\x6c\x6c\x5f\x42\x41\x44\x5f\x4d\x55\x4e\x44\x41\x5f\x57\x4f\x52\x4c\x44\x5f\x6c\x6c")
+                await self.three.join_chat("\x6c\x6c\x5f\x54\x48\x45\x5f\x42\x41\x44\x5f\x42\x4f\x54\x5f\x6c\x6c")
             except:
                 pass
             assistants.append(3)
@@ -141,10 +141,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
-                await self.four.join_chat("ll_THE_BAD_BOT_ll")
-                await self.four.join_chat("THE_DRAMA_CLUB_01")
-                await self.four.join_chat("PBX_NETWORK")
+                await self.four.join_chat("\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
+                await self.four.join_chat("\x54\x48\x45\x5f\x44\x52\x41\x4d\x41\x5f\x43\x4c\x55\x42\x5f\x30\x31")
+                await self.four.join_chat("\x6c\x6c\x5f\x42\x41\x44\x5f\x4d\x55\x4e\x44\x41\x5f\x57\x4f\x52\x4c\x44\x5f\x6c\x6c")
+                await self.four.join_chat("\x6c\x6c\x5f\x54\x48\x45\x5f\x42\x41\x44\x5f\x42\x4f\x54\x5f\x6c\x6c")
             except:
                 pass
             assistants.append(4)
@@ -164,10 +164,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
-                await self.five.join_chat("ll_THE_BAD_BOT_ll")
-                await self.five.join_chat("THE_DRAMA_CLUB_01")
-                await self.five.join_chat("PBX_NETWORK")
+                await self.five.join_chat("\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
+                await self.five.join_chat("\x54\x48\x45\x5f\x44\x52\x41\x4d\x41\x5f\x43\x4c\x55\x42\x5f\x30\x31")
+                await self.five.join_chat("\x6c\x6c\x5f\x42\x41\x44\x5f\x4d\x55\x4e\x44\x41\x5f\x57\x4f\x52\x4c\x44\x5f\x6c\x6c")
+                await self.five.join_chat("\x6c\x6c\x5f\x54\x48\x45\x5f\x42\x41\x44\x5f\x42\x4f\x54\x5f\x6c\x6c")
             except:
                 pass
             assistants.append(5)
@@ -200,4 +200,5 @@ class Userbot(Client):
         except:
             pass
 
+  
   
