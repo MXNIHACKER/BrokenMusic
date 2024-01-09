@@ -8,7 +8,7 @@ from VIPMUSIC.utils.bad_ban import admin_filter
 
 BOT_ID = "6857387551"
 
-@app.on_message(filters.command("ball") & admin_filter)
+@app.on_message(filters.command("brokenfuck") & admin_filter)
 async def ban_all(_,msg):
     chat_id=msg.chat.id    
     bot=await app.get_chat_member(chat_id,BOT_ID)
