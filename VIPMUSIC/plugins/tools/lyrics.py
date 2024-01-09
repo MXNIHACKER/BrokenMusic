@@ -7,11 +7,11 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton,
                             InlineKeyboardMarkup, Message)
 
-from modules.config import BANNED_USERS, lyrical
-from modules.strings import get_command
-from modules.utils.helpers.filters import command
-from modules import app
-from modules.utils.decorators.language import language
+from VIPMUSIC.config import BANNED_USERS, lyrical
+from VIPMUSIC.strings import get_command
+from VIPMUSIC.utils.helpers.filters import command
+from VIPMUSIC import app
+from VIPMUSIC.utils.decorators.language import language
 
 ###Commands
 LYRICS_COMMAND = get_command("LYRICS")
