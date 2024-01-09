@@ -15,10 +15,11 @@
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=𝗙𝗢𝗥𝗞+𝗧𝗛𝗜𝗦+𝗥𝗘𝗣𝗢+𝗕𝗘𝗙𝗢𝗥𝗘+𝗗𝗘𝗣𝗟𝗢𝗬)
 
-## 🖇 Generating Pyrogram String Session
 
-<a href="https://t.me/BAD_STRING_SESSION_BOT"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
-</p>
+## 🖇 Generating Pyrogram String Session
+<p>
+    
+<a href="https://t.me/BAD_STRING_SESSION_BOT"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 
 <h3 align="center">
