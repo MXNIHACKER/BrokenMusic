@@ -22,7 +22,10 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
-                ]
+                ],
+                [InlineKeyboardButton(
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
+            ]
             ]
         ),
     )
@@ -39,7 +42,10 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
-                ]
+                ],
+                [InlineKeyboardButton(
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
+            ]
             ]
         ),
     )
@@ -56,7 +62,10 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
-                ]
+                ],
+                [InlineKeyboardButton(
+                        "🗡️ 𝐎ᴡɴᴇʀ 🗡️", url=f"https://t.me/II_BAD_MUNDA_II")
+            ]
             ]
         ),
     )
