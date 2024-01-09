@@ -1,5 +1,7 @@
 from pyrogram import Client, filters
 
+from modules import app
+
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
