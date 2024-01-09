@@ -22,9 +22,9 @@
 <a href="https://t.me/BAD_STRING_SESSION_BOT-Gen"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a>
 
 ## ⚠️ 𝗗𝗜𝗦𝗖𝗟𝗔𝗜𝗠𝗘𝗥
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 👉🏻 ʜᴇʏ ɢᴜʏ's, ᴅᴏɴ'ᴛ ᴜsᴇ ʏᴏᴜʀ ʀᴇᴀʟ ɪ'ᴅ sᴇssɪᴏɴ ᴀs ᴀ ᴀssɪsᴛᴀɴᴛ ʙᴄᴏᴢ ᴛʜᴇ ᴀssɪsᴛᴀɴᴛ ᴡɪʟʟ ʟᴇᴀᴠᴇ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘs & ᴄʜᴀɴɴᴇʟs.ᴜ  ᴍɪɢʜᴛ ʟᴏᴏsᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ᴏᴡɴᴇʀsʜɪᴘ ᴀɴᴅ ᴀᴅᴍɪɴsʜɪᴘ 🥺 sᴏ ᴜsᴇ ʏᴏᴜʀ ᴀɴʏ ᴏᴛʜᴇʀ ɪ'ᴅ sᴇssɪᴏɴ 👈🏻
-
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 <h3 align="center">
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 
