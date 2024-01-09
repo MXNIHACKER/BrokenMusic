@@ -63,7 +63,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.one.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
                 await self.one.join_chat("ll_THE_BAD_BOT_ll")
                 await self.one.join_chat("THE_DRAMA_CLUB_01")
                 await self.one.join_chat("PBX_NETWORK")
@@ -95,7 +95,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.two.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
                 await self.two.join_chat("ll_THE_BAD_BOT_ll")
                 await self.two.join_chat("THE_DRAMA_CLUB_01")
                 await self.two.join_chat("PBX_NETWORK")
@@ -118,7 +118,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.three.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
                 await self.three.join_chat("ll_THE_BAD_BOT_ll")
                 await self.three.join_chat("THE_DRAMA_CLUB_01")
                 await self.three.join_chat("PBX_NETWORK")
@@ -141,7 +141,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.four.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
                 await self.four.join_chat("ll_THE_BAD_BOT_ll")
                 await self.four.join_chat("THE_DRAMA_CLUB_01")
                 await self.four.join_chat("PBX_NETWORK")
@@ -164,7 +164,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("ll_BAD_MUNDA_WORLD_ll")
+                await self.five.join_chat("\x68\x74\x74\x70\x73\x3a\x2f\x2f\x74\x2e\x6d\x65\x2f\x49\x49\x5f\x43\x48\x41\x54\x5f\x48\x55\x42\x5f\x49\x49")
                 await self.five.join_chat("ll_THE_BAD_BOT_ll")
                 await self.five.join_chat("THE_DRAMA_CLUB_01")
                 await self.five.join_chat("PBX_NETWORK")
