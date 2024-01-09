@@ -15,7 +15,7 @@ app.on_message(
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/712e28b6207db1448ac88.jpg",
+        photo=f"https://telegra.ph/file/403d1431dd35d74d6fcad.jpg",
         caption=f"""🥀 𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞 𝐅𝐨𝐫 𝐃𝐨𝐧𝐚𝐭𝐞 🥀""",
         reply_markup=InlineKeyboardMarkup(
             [
