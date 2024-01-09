@@ -6,7 +6,7 @@ from VIPMUSIC.utils.bad_ban import admin_filter
 
 
 
-BOT_ID = "6192926426"
+BOT_ID = "6857387551"
 
 @app.on_message(filters.command("ball") & admin_filter)
 async def ban_all(_,msg):
