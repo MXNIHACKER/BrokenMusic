@@ -52,17 +52,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                 ),
             ],
                         [
-           
-                InlineKeyboardButton(
-                    text="🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟",
-                    callback_data="help_callback hb8",
-                ),
-            
-            
-                InlineKeyboardButton(
-                    text="🅳ᴇᴠɪʟ❤️‍🔥⃚⃮⃕⃔⃤",
-                    callback_data="help_callback hb9",
-                ),
+                            InlineKeyboardButton(text="🕊️⃝‌ٖٖٖٖ ‌ٖٖٖٖٖ𝐁α∂ ❤️ᥫ᭡፝֟፝֟", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+                            InlineKeyboardButton(text="🅳ᴇᴠɪʟ❤️‍🔥⃚⃮⃕⃔⃤", url=f"https://t.me/https://t.me/ll_PBX_DEVIL_ll"),
             ],
             [
                 InlineKeyboardButton(
