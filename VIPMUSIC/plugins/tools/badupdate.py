@@ -29,7 +29,7 @@ async def help(client: Client, message: Message):
                 ],
                  [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/BAD_SPAM_X/fork")
+                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/PBX_2.0/fork")
                 ],
                  [
                     InlineKeyboardButton(
@@ -58,7 +58,7 @@ async def help(client: Client, message: Message):
                 ],
                  [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/BAD_SPAM_X/fork")
+                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/PBX_2.0/fork")
                 ],
                  [
                     InlineKeyboardButton(
@@ -87,7 +87,7 @@ async def help(client: Client, message: Message):
                 ],
                  [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                        "🗡️ 𝐏ʙx 2.0 ᴜ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/Badhacker98/PBX_2.0/fork")
                 ],
                  [
                     InlineKeyboardButton(
