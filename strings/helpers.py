@@ -214,21 +214,21 @@ HELP_13 = """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
 HELP_14 =  """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
-/bass ➪
+/bass ➪ ⤹★ choose a couple of the day ★⤸
 
-jsj ➪
+jsj ➪ ⤹★ give you aa extra bass boosted audio ★⤸
 
-hej ➪
+hej ➪ ⤹★ give you extra &amp; loud audio ★⤸
 
-jej ➪
+jej ➪ ⤹★ set a welcome in your group ( example = /badwlc=on/off ) ★⤸
 
-hej ➪
+hej ➪ ⤹★ remove pictures background and I give you png ★⤸
 
-hdjne ➪
+hdjne ➪ ⤹★ find any picture ★⤸
 
-jdkme ➪
+jdkme ➪ ⤹★ show your love % ★⤸
 
-hej ➪
+hej ➪ ⤹★ write anything a fidglet ★⤸
 
 msn ➪
 
