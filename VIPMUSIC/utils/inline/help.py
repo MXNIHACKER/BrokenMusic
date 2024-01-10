@@ -32,16 +32,17 @@ def help_pannel(_, START: Union[bool, int] = None):
                     callback_data="help_callback hb2",
                 ),
             
+            ],
+            [
                 InlineKeyboardButton(
                     text="♨️ ʙʟᴏᴄᴋ ♨️",
                     callback_data="help_callback hb3",
                 ),
-            ],
-            [
                 InlineKeyboardButton(
                     text="📣 ɢᴄᴀsᴛ 📣",
                     callback_data="help_callback hb4",
                 ),
+            ],
                 InlineKeyboardButton(
                     text="🚫 ɢʙᴀɴ 🚫",
                     callback_data="help_callback hb12",
@@ -122,4 +123,5 @@ def private_help_panel(_):
         ],
     ]
     return buttons
+    
     
