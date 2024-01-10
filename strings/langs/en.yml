@@ -234,9 +234,9 @@ stream_4 : "**➻ 𝐇ᴇʏ {3} ❤️ **\n\n**➻ 𝐘ᴏᴜʀ [𝐒ong]({1}) �
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "✯ ¢ℓσѕє ✯"
-CLOSEMENU_BUTTON  : "✯ ¢ℓσѕє ✯"
-BACK_BUTTON : "✯ вα¢к ✯"
+CLOSE_BUTTON  : "✯ ᴄʟᴏsᴇ ✯"
+CLOSEMENU_BUTTON  : "✯ ᴄʟᴏsᴇ ✯"
+BACK_BUTTON : "✯ ʙᴀᴄᴋ ✯"
 UNBAN_BUTTON : "✯ 𝐔𝐍𝐁𝐀𝐍 ✯"
 
 #Lyrics
