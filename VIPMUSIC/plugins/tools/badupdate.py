@@ -25,7 +25,7 @@ async def help(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/DevilXUser/fork")
                 ],
                  [
                     InlineKeyboardButton(
@@ -54,7 +54,7 @@ async def help(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/DevilXUser/fork")
                 ],
                  [
                     InlineKeyboardButton(
@@ -83,7 +83,7 @@ async def help(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                        "🗡️ 𝐏ʙx ᴜ  𝐑ᴇᴘᴏ  🗡️", url=f"https://github.com/MXNIHACKER/DevilXUser/fork")
                 ],
                  [
                     InlineKeyboardButton(
