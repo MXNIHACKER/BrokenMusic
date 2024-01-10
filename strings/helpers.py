@@ -188,7 +188,7 @@ HELP_13 = """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
 /gali ➪ ◤✧ ɢᴇᴛ 𝐬ᴏᴍᴇ ɢᴀʟɪ 𝐬ᴇɴᴛᴇɴᴄᴇ𝐬 ғᴏʀ ᴀʙᴜ𝐬ᴇ ᴀɴʏᴏᴊᴇ [ʙᴏᴛ ᴘᴍ] ✧◥
 
-/vcraid ➪ ◤✧ ᴄᴏᴍᴍɪɴɢ 𝐬ᴏᴏɴ ✧◥
+/vctag ➪ ◤✧ ᴄᴏᴍᴍɪɴɢ 𝐬ᴏᴏɴ ✧◥
 
 /tagall ➪ /utag , /ftag » ◤✧ ᴛᴀɢ ᴀʟʟ ᴍᴇᴍʙᴇʀ𝖘 ᴏɴᴇ ʙʏ ᴏɴᴇ ғᴏʀ ᴠᴄ ✧◥
 
@@ -230,7 +230,11 @@ jdkme ➪ ⤹★ show your love % ★⤸
 
 hej ➪ ⤹★ write anything a fidglet ★⤸
 
-msn ➪
+msn ➪ ⤹★ show user name history ★⤸
+
+msn ➪ ⤹★ text into voice ai converter  ★⤸
+
+msn ➪ ⤹★ give you porn names ★⤸
 
 ◈ ◈ 𝐌ᴏʀᴇ 𝐅ᴇᴀᴛᴜʀᴇ𝐬 𝐂ᴏᴍᴍɪɴɢ 𝐒ᴏᴏɴ ◈  ◈ 
 
