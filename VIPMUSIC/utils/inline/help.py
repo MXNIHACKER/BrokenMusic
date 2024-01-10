@@ -65,8 +65,8 @@ def help_pannel(_, START: Union[bool, int] = None):
                 ),
             ],
             [
-                            InlineKeyboardButton(text="ʙᴀᴅ", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
-                            InlineKeyboardButton(text="ᴅᴇᴠɪʟ", url=f"https://t.me/ll_PBX_DEVIL_ll"),
+                            InlineKeyboardButton(text="👻 ʙᴀᴅ 👻", url=f"https://t.me/ll_BAD_MUNDA_WORLD_ll"),
+                            InlineKeyboardButton(text="💥 ᴅᴇᴠɪʟ 💥", url=f"https://t.me/ll_PBX_DEVIL_ll"),
             ],
             [
            
