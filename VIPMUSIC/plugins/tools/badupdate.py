@@ -40,7 +40,7 @@ async def help(client: Client, message: Message):
     )
 
 @app.on_message(
-    filters.command("source")
+    filters.command("source", "repo")
     & filters.group)
 async def help(client: Client, message: Message):
     await message.reply_photo(
