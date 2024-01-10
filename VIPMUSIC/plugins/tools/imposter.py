@@ -89,10 +89,10 @@ async def chk_usr(_, message: Message):
         await message.reply_photo("https://telegra.ph/file/98c8d031b20663facc2d0.jpg", caption=msg)
 
 
-@app.on_message(filters.group & filters.command("wlc") & ~filters.bot & ~filters.via_bot)
+@app.on_message(filters.group & filters.command("spicalwlc") & ~filters.bot & ~filters.via_bot)
 async def set_mataa(_, message: Message):
     if len(message.command) == 1:
-        return await message.reply("**ᴅᴇᴛᴇᴄᴛ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴜsᴇʀs ᴜsᴀɢᴇ : ᴘʀᴇᴛᴇɴᴅᴇʀ ᴏɴ|ᴏғғ**")
+        return await message.reply("**ᴅᴇᴛᴇᴄᴛ sᴘɪᴄᴀʟᴡʟᴄ ᴜsᴇʀs ᴜsᴀɢᴇ : sᴘɪᴄᴀʟ ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ**")
     if message.command[1] == "enable":
         cekset = await impo_on(message.chat.id)
         if cekset:
