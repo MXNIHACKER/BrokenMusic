@@ -32,6 +32,9 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
+    # Don't edit variables below this line #
+SUDO_USERS = [6566179661]
+
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/MXNIHACKER/BrokenMusic",
