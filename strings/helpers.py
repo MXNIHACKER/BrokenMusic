@@ -214,27 +214,27 @@ HELP_13 = """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
 HELP_14 =  """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
-/bass ➪ ⤹★ choose a couple of the day ★⤸
+/couples ➪ ⤹★ choose a couple of the day ★⤸
 
-jsj ➪ ⤹★ give you aa extra bass boosted audio ★⤸
+/bass ➪ ⤹★ give you aa extra bass boosted audio ★⤸
 
-hej ➪ ⤹★ give you extra &amp; loud audio ★⤸
+/dj ➪ ⤹★ give you extra &amp; loud audio ★⤸
 
-jej ➪ ⤹★ set a welcome in your group ( example = /badwlc=on/off ) ★⤸
+/badwlc ➪ ⤹★ set a welcome in your group ( example = /badwlc=on/off ) ★⤸
 
-hej ➪ ⤹★ remove pictures background and I give you png ★⤸
+/rmbg ➪ ⤹★ remove pictures background and I give you png ★⤸
 
-hdjne ➪ ⤹★ find any picture ★⤸
+/pic /randompic  ➪ ⤹★ find any picture ★⤸
 
-jdkme ➪ ⤹★ show your love % ★⤸
+/love ➪ ⤹★ show your love % ★⤸
 
-hej ➪ ⤹★ write anything a fidglet ★⤸
+/code ➪ ⤹★ write anything a fidglet ★⤸
 
-msn ➪ ⤹★ show user name history ★⤸
+/name ➪ ⤹★ show user name history ★⤸
 
-msn ➪ ⤹★ text into voice ai converter  ★⤸
+/tts ➪ ⤹★ text into voice ai converter  ★⤸
 
-msn ➪ ⤹★ give you porn names ★⤸
+/porn ➪ ⤹★ give you porn names ★⤸
 
 ◈ ◈ 𝐌ᴏʀᴇ 𝐅ᴇᴀᴛᴜʀᴇ𝐬 𝐂ᴏᴍᴍɪɴɢ 𝐒ᴏᴏɴ ◈  ◈ 
 
