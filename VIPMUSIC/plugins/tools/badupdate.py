@@ -22,7 +22,19 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
-                ]
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                 ]
             ]
         ),
     )
@@ -39,7 +51,19 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
-                ]
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                 ]
             ]
         ),
     )
@@ -56,7 +80,19 @@ async def help(client: Client, message: Message):
                 [
                     InlineKeyboardButton(
                         "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
-                ]
+                ],
+                [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                ],
+                 [
+                    InlineKeyboardButton(
+                        "🗡️ 𝐑ᴇᴘᴏ 🗡️", url=f"https://github.com/MXNIHACKER/BrokenMusic/fork")
+                 ]
             ]
         ),
     )
