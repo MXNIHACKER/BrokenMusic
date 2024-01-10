@@ -110,8 +110,8 @@ async def in_help():
     answers = [
         InlineQueryResultArticle(
             title="💒 Whisper",
-            description=f"@SAD_MUSIC_896_BOT [USERNAME | ID] [TEXT]",
-            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@BAD_BBY_01_BOT (Target Username or ID) (Your Message).\n\n**Example:**\n@BAD_BBY_01_BOT @username I Wanna Phuck You"),
+            description=f"@MissBroken_Bot [USERNAME | ID] [TEXT]",
+            input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@MissBroken_Bot (Target Username or ID) (Your Message).\n\n**Example:**\n@MissBroken_Bot @username I Wanna Phuck You"),
             thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
             reply_markup=switch_btn
         )
@@ -129,6 +129,4 @@ async def bot_inline(_, inline_query):
     else:
         answers = await _whisper(_, inline_query)
         await inline_query.answer(answers[-1], cache_time=0)
-
-
-        
+                                               
