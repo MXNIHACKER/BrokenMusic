@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorClient as MongoCli
 
 mongo = MongoCli(MONGO_DB_URI).Rankings
 
-impdb = mongo.pretender
+impdb = mongo.imposter
 
  
 async def usr_data(user_id: int) -> bool:
@@ -31,7 +31,7 @@ async def add_userdata(user_id: int, username, first_name, last_name):
         upsert=True,
     )
 
-async def check_pretender(chat_id: int) -> bool:
+async def check_imposter(chat_id: int) -> bool:
     chat = await impdb.find_one({"chat_id_toggle": chat_id})
     return bool(chat)
 
@@ -42,3 +42,4 @@ async def impo_on(chat_id: int) -> bool:
 
 async def impo_off(chat_id: int):
     await impdb.delete_one({"chat_id_toggle": chat_id})
+  
