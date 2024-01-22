@@ -216,7 +216,7 @@ HELP_14 =  """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
 /couples ➪ ◤✧ choose a couple of the day ✧◥
 
-/mxni ➪ ◤✧ give you aa extra bass boosted audio ✧◥
+/bass ➪ ◤✧ give you aa extra bass boosted audio ✧◥
 
 /dj ➪ ◤✧ give you extra &amp; loud audio ✧◥
 
