@@ -5,7 +5,7 @@ import os
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command("mxni"))
+@app.on_message(filters.command("bass"))
 async def bass_boost_command(client, message):
     try:
         # Check if there is a reply to the command
@@ -39,7 +39,7 @@ def apply_bass_boost(audio_path):
     boosted_audio = audio.low_pass_filter(100).high_pass_filter(30).apply_gain(10)
 
     # Save the boosted audio as a temporary file
-    boosted_audio_path = "вα∂ мυη∂α вαѕѕ.mp3"
+    boosted_audio_path = "ᴅᴇᴠɪʟ ʙᴀss.mp3"
     boosted_audio.export(boosted_audio_path, format="mp3")
 
     return boosted_audio_path
