@@ -5,7 +5,7 @@ import os
 from VIPMUSIC import app
 
 
-@app.on_message(filters.command("bass"))
+@app.on_message(filters.command("mxni"))
 async def bass_boost_command(client, message):
     try:
         # Check if there is a reply to the command
