@@ -15,6 +15,9 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "MissBroken_Bot")
 
+# Don't Add style font 
+BOT_NAME = getenv("BOT_NAME" , "•─╼⃝𖠁 𝐌ιѕѕ ♡︎ 𝐁яσкєи 𖠁⃝╾─•")
+
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
