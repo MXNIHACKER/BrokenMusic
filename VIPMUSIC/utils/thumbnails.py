@@ -9,7 +9,7 @@ from PIL import Image, ImageDraw, ImageEnhance, ImageFilter, ImageFont, ImageOps
 from youtubesearchpython.__future__ import VideosSearch
 
 from VIPMUSIC import app
-from config import YOUTUBE_IMG_URL, BOT_NAME
+from config import YOUTUBE_IMG_URL, BOT_USERNAME
 
 
 def changeImageSize(maxWidth, maxHeight, image):
