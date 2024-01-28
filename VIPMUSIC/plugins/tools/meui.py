@@ -1,71 +1,156 @@
 import os
 import textwrap
 from PIL import Image, ImageDraw, ImageFont
-from pyrogram import Client, filters
+from pyrogram import filters
 from pyrogram.types import Message
-from pyrogram.raw.types import InputFile
-from io import BytesIO
-from pyrogram.raw.functions.messages import GetStickerSet
 from VIPMUSIC import app
 
-TEMP_DOWNLOAD_DIRECTORY = []
-
 @app.on_message(filters.command("mmf"))
-async def memify(client: Client, message: Message):
-    try:
-        chat_id = message.chat.id
-        args = message.text.split(" ", 1)
+async def mmf(_, message: Message):
+    chat_id = message.chat.id
+    reply_message = message.reply_to_message
 
-        if len(args) == 1:
-            await message.reply_text('Provide some text and reply to image/stickers EXAMPLE: /mmf text')
-            return
+    if len(message.text.split()) < 2:
+        await message.reply_text("**Give me text after /mmf to memify.**")
+        return
 
-        xx = await message.reply_text('Memifing your sticker...wait!')
+    msg = await message.reply_text("**Memifying this image! ✊🏻**")
+    text = message.text.split(None, 1)[1]
+    file = await app.download_media(reply_message)
 
-        sticker_set = await app.send_sticker(message.chat.id, message.reply_to_message.sticker.file_id)
+    meme = await drawText(file, text)
+    await app.send_document(chat_id, document=meme)
 
-        if sticker_set.document and not sticker_set.document.mime_type.startswith("image/gif"):
-            await xx.edit_text("Sorry, this function can't work with animated stickers.")
-            return
+    await msg.delete()
 
-        file_id = message.reply_to_message.sticker.file_id
+    os.remove(meme)
 
-        with BytesIO() as file:
-            file.name = 'mmfsticker.png'
-            async for chunk in app.get_file(file_id):
-                file.write(chunk)
 
-            file.seek(0)
-            img = Image.open(file)
+async def drawText(image_path, text):
+    img = Image.open(image_path)
 
-        text = args[1]
-        i_width, i_height = img.size
-        fnt = ".//VIPMUSIC/assets/default.ttf" if os.name == "nt" else ".//VIPMUSIC/assets/default.ttf"
-        m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
+    os.remove(image_path)
 
-        upper_text, lower_text = (text.split(";") + [""])[:2]
+    i_width, i_height = img.size
 
-        draw = ImageDraw.Draw(img)
-        current_h, pad = 10, 5
+    if os.name == "nt":
+        fnt = "arial.ttf"
+    else:
+        fnt = "./VIPMUSIC/assets/hiroko.ttf"
 
-        for t in [upper_text, lower_text]:
-            if t:
-                for line in textwrap.wrap(t, width=15):
-                    u_width, u_height = draw.textsize(line, font=m_font)
-                    for offset in [(-2, 0), (2, 0), (0, -2), (0, 2)]:
-                        draw.text(xy=(((i_width - u_width) / 2) + offset[0], int((current_h / 640) * i_width) + offset[1]),
-                                  text=line, font=m_font, fill=(0, 0, 0))
-                    draw.text(xy=((i_width - u_width) / 2, int((current_h / 640) * i_width)),
-                              text=line, font=m_font, fill=(255, 255, 255))
-                    current_h += u_height + pad
+    m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
 
-        image_name = "memify.webp"
-        webp_file = os.path.join(image_name)
-        img.save(webp_file, "webp")
-        output = open(image_name, "rb")
-        await app.send_sticker(message.chat.id, InputFile(output), reply_to_message_id=message.message_id)
+    if ";" in text:
+        upper_text, lower_text = text.split(";")
+    else:
+        upper_text = text
+        lower_text = ""
 
-        await xx.delete()
+    draw = ImageDraw.Draw(img)
 
-    except Exception as e:
-        await message.reply_text(f'{e}')
+    current_h, pad = 10, 5
+
+    if upper_text:
+        for u_text in textwrap.wrap(upper_text, width=15):
+            u_width, u_height = draw.textsize(u_text, font=m_font)
+
+            draw.text(
+                xy=(((i_width - u_width) / 2) - 2, int((current_h / 640) * i_width)),
+                text=u_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(((i_width - u_width) / 2) + 2, int((current_h / 640) * i_width)),
+                text=u_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=((i_width - u_width) / 2, int(((current_h / 640) * i_width)) - 2),
+                text=u_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(((i_width - u_width) / 2), int(((current_h / 640) * i_width)) + 2),
+                text=u_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=((i_width - u_width) / 2, int((current_h / 640) * i_width)),
+                text=u_text,
+                font=m_font,
+                fill=(255, 255, 255),
+            )
+
+            current_h += u_height + pad
+
+    if lower_text:
+        for l_text in textwrap.wrap(lower_text, width=15):
+            u_width, u_height = draw.textsize(l_text, font=m_font)
+
+            draw.text(
+                xy=(
+                    ((i_width - u_width) / 2) - 2,
+                    i_height - u_height - int((20 / 640) * i_width),
+                ),
+                text=l_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(
+                    ((i_width - u_width) / 2) + 2,
+                    i_height - u_height - int((20 / 640) * i_width),
+                ),
+                text=l_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(
+                    (i_width - u_width) / 2,
+                    (i_height - u_height - int((20 / 640) * i_width)) - 2,
+                ),
+                text=l_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(
+                    (i_width - u_width) / 2,
+                    (i_height - u_height - int((20 / 640) * i_width)) + 2,
+                ),
+                text=l_text,
+                font=m_font,
+                fill=(0, 0, 0),
+            )
+
+            draw.text(
+                xy=(
+                    (i_width - u_width) / 2,
+                    i_height - u_height - int((20 / 640) * i_width),
+                ),
+                text=l_text,
+                font=m_font,
+                fill=(255, 255, 255),
+            )
+
+            current_h += u_height + pad
+
+    image_name = "memify.webp"
+
+    webp_file = os.path.join(image_name)
+
+    img.save(webp_file, "webp")
+
+    return webp_file
