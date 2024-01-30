@@ -220,7 +220,7 @@ HELP_14 =  """😻 **<u>ᴍᴏʀᴇ ᴄᴜᴛᴇ ғᴇᴀᴛᴜʀᴇs 😻</u>**
 
 /dj ➪ ◤✧ give you extra &amp; loud audio ✧◥
 
-/badwlc ➪ ◤✧ set a welcome in your group ( example = /badwlc=on/off ) ✧◥
+/welcome ➪ ◤✧ set a welcome in your group ( example = /weclome=on/off ) ✧◥
 
 /rmbg ➪ ◤✧ remove pictures background and I give you png ✧◥
 
