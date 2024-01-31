@@ -4,7 +4,7 @@ from pyrogram import filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from VIPMUSIC.utils.bad_ban import admin_filter
 
-BOT_ID = "6857387551"
+BOT_ID = app.id
 
 @app.on_message(filters.command("unbanall") & admin_filter)
 async def unban_all(_, msg):
@@ -23,11 +23,10 @@ async def unban_all(_, msg):
             except Exception:
                 pass
     else:
-        await msg.reply_text("ᴇɪᴛʜᴇʀ ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴛʜᴇ ʀɪɢʜᴛ ᴛᴏ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs ᴏʀ ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ sᴜᴅᴏ ᴜsᴇʀs")
+        await msg.reply_text("ʜᴜʜ!.ᴘʟᴢ ʙᴀɴ ᴘᴀʀᴍɪsʜɴ ᴏɴ")
 
 @app.on_callback_query(filters.regex("^stop$"))
 async def stop_callback(_, query):
     await query.message.delete()
 
 ###
-
