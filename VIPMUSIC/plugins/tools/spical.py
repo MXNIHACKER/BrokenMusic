@@ -132,7 +132,7 @@ async def greet_group(_, member: ChatMemberUpdated):
             member.chat.id,
             photo=welcomeimg,
             caption=f"""
-**Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
+*Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
 
 🏘𝐖ᴇʟᴄᴏᴍᴇ 𝐈ɴ 𝐍ᴇᴡ 𝐆ʀᴏᴜᴘ🥳
 
@@ -173,7 +173,7 @@ async def greet_group(_, member: ChatMemberUpdated):
     -----------------------------------------------------           
                    
         ꧁ ༺ 𝐓нαик 𝐘συ ༻ ꧂
-❍══════════════════════════❍**
+❍══════════════════════════❍*
 """,
             reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(f"✰ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ✰", url=f"tg://openmessage?user_id={user.id}")]])
         )
@@ -192,7 +192,7 @@ async def bot_wel(_, message):
     for u in message.new_chat_members:
         if u.id == app.me.id:
             await app.send_message(LOG_CHANNEL_ID, f"""
-**Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
+*Wᴇʟᴄᴏᴍᴇ Tᴏ {member.chat.title}
 
 🏘𝐖ᴇʟᴄᴏᴍᴇ 𝐈ɴ 𝐍ᴇᴡ 𝐆ʀᴏᴜᴘ🥳
 
@@ -233,6 +233,6 @@ async def bot_wel(_, message):
     -----------------------------------------------------           
                    
         ꧁ ༺ 𝐓нαик 𝐘συ ༻ ꧂
-❍══════════════════════════❍**
+❍══════════════════════════❍*
 """)
     
