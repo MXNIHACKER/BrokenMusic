@@ -54,10 +54,10 @@ async def chk_usr(_, message: Message):
     if first_name != message.from_user.first_name:
         msg += """
 **🪧 ᴄʜᴀɴɢᴇs ғɪʀsᴛ ɴᴀᴍᴇ 🪧**
-➖➖➖➖➖➖➖➖➖➖➖➖
-**🔐 ғʀᴏᴍ** : {bef}
-**🍓 ᴛᴏ** : {aft}
-➖➖➖➖➖➖➖➖➖➖➖➖\n
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━
+**➤ ғʀᴏᴍ 🖤** ◂⚚▸ {bef} ❤️🔐
+**➤ ᴛᴏ 🖤** ◂⚚▸ {aft} ❤️🧿
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━\n
 """.format(
             bef=first_name, aft=message.from_user.first_name
         )
@@ -89,18 +89,18 @@ async def chk_usr(_, message: Message):
         await message.reply_photo("https://telegra.ph/file/8126ac5096aa0a8d7d97a.jpg", caption=msg)
 
 
-@app.on_message(filters.group & filters.command("spicalwlc") & ~filters.bot & ~filters.via_bot)
+@app.on_message(filters.group & filters.command("sg") & ~filters.bot & ~filters.via_bot)
 async def set_mataa(_, message: Message):
     if len(message.command) == 1:
-        return await message.reply("**ᴅᴇᴛᴇᴄᴛ sᴘɪᴄᴀʟᴡʟᴄ ᴜsᴇʀs ᴜsᴀɢᴇ : sᴘɪᴄᴀʟ ᴇɴᴀʙʟᴇ|ᴅɪsᴀʙʟᴇ**")
-    if message.command[1] == "enable":
+        return await message.reply("**ᴅᴇᴛᴇᴄᴛ  ᴜsᴇʀs ᴜsᴀɢᴇ : sɢ ᴏɴ ᴏɴ|ᴏғ**")
+    if message.command[1] == "on":
         cekset = await impo_on(message.chat.id)
         if cekset:
-            await message.reply("**ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.**")
+            await message.reply("**ʙʀᴏᴋᴇɴ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴇɴᴀʙʟᴇᴅ.**")
         else:
             await impo_on(message.chat.id)
-            await message.reply(f"**sᴜᴄᴄᴇssғᴜʟʟʏ ᴇɴᴀʙʟᴇᴅ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ғᴏʀ** {message.chat.title}")
-    elif message.command[1] == "disable":
+            await message.reply(f"**sᴜᴄᴄᴇssғᴜʟʟʏ ʙʀᴏᴋᴇɴ  ᴇɴᴀʙʟᴇᴅ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ғᴏʀ** {message.chat.title}")
+    elif message.command[1] == "of":
         cekset = await impo_off(message.chat.id)
         if not cekset:
             await message.reply("**ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ɪs ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.**")
@@ -108,4 +108,4 @@ async def set_mataa(_, message: Message):
             await impo_off(message.chat.id)
             await message.reply(f"**sᴜᴄᴄᴇssғᴜʟʟʏ ᴅɪsᴀʙʟᴇᴅ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴍᴏᴅᴇ ғᴏʀ** {message.chat.title}")
     else:
-        await message.reply("**ᴅᴇᴛᴇᴄᴛ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴜsᴇʀs ᴜsᴀɢᴇ : ᴘʀᴇᴛᴇɴᴅᴇʀ ᴏɴ|ᴏғғ**")
+        await message.reply("**ᴅᴇᴛᴇᴄᴛ ᴘʀᴇᴛᴇɴᴅᴇʀ ᴜsᴇʀs ᴜsᴀɢᴇ : sɢ  ᴏɴ|ᴏғғ**")
