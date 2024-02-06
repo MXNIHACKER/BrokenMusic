@@ -25,11 +25,13 @@ async def chk_usr(_, message: Message):
         or lastname_before != message.from_user.last_name
     ):
         msg += f"""
-**🔓 ᴘʀᴇᴛᴇɴᴅᴇʀ ᴅᴇᴛᴇᴄᴛᴇᴅ 🔓**
-➖➖➖➖➖➖➖➖➖➖➖➖
-**🍊 ɴᴀᴍᴇ** : {message.from_user.mention}
-**🍅 ᴜsᴇʀ ɪᴅ** : {message.from_user.id}
-➖➖➖➖➖➖➖➖➖➖➖➖\n
+**⛳️ʙʀᴏᴋᴇɴ  ᴘʀᴇᴛᴇɴᴅᴇʀ ᴅᴇᴛᴇᴄᴛᴇᴅ ⛳️**
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━
+ 
+**➤ 𝐍ᴀᴍᴇ 🖤** ◂⚚▸ {message.from_user.mention} ❤️🔐
+**➤ 𝐔ꜱᴇʀ 𝐈ᴅ 🖤** ◂⚚▸ {message.from_user.id} ❤️🧿
+
+ ━━━━━━━━━━━━━━━━━━━━━━━━━━\n
 """
     if usernamebefore != message.from_user.username:
         usernamebefore = f"@{usernamebefore}" if usernamebefore else "NO USERNAME"
