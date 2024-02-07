@@ -3,7 +3,7 @@ import datetime
 from VIPMUSIC import app
 from pyrogram import Client
 from config import START_IMG_URL
-from DAXXMUSIC.utils.database import get_served_chats
+from VIPMUSIC.utils.database import get_served_chats
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
