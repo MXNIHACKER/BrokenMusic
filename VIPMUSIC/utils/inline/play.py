@@ -11,7 +11,7 @@ def track_markup(_, user_id, channel, fplay):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_10"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
             ],
@@ -62,7 +62,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_10"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
           ],
@@ -98,7 +98,7 @@ def stream_markup(_, chat_id):
 
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_11"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
           ],
@@ -156,7 +156,7 @@ def livestream_markup(_, videoid, user_id, mode, channel, fplay):
         [
            InlineKeyboardButton(
 
-                text=_["S_B_5"],
+                text=_["S_B_10"],
 
                 url=f"https://t.me/{app.username}?startgroup=true",
 
@@ -185,7 +185,7 @@ def slider_markup(_, videoid, user_id, query, query_type, channel, fplay):
         [
            InlineKeyboardButton(
 
-                text=_["S_B_5"],
+                text=_["S_B_10"],
 
                 url=f"https://t.me/{app.username}?startgroup=true",
 
@@ -242,7 +242,7 @@ def queue_markup(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_10"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
             ],
@@ -279,7 +279,7 @@ def panel_markup_1(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_10"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
@@ -320,7 +320,7 @@ def panel_markup_2(_, videoid, chat_id):
     buttons = [
         [
             InlineKeyboardButton(
-                text=_["S_B_5"],
+                text=_["S_B_10"],
                 url=f"https://t.me/{app.username}?startgroup=true",
             ),
         ],
