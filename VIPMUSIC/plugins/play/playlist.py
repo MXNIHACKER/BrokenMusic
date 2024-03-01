@@ -15,7 +15,7 @@ from pyrogram import filters
 from pyrogram.types import (InlineKeyboardButton, CallbackQuery,
                             InlineKeyboardMarkup, Message)
 from VIPMUSIC.utils import close_markup
-from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
+from config import BANNED_USERS, SUKH_BAD
 from VIPMUSIC import Carbon, app
 from VIPMUSIC.utils.decorators.language import language, languageCB
 from VIPMUSIC.utils.inline.playlist import (botplaylist_markup,
