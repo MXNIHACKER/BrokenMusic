@@ -59,9 +59,9 @@ CAP2 = """
 
 @app.on_message(filters.command(["couples"]) & ~filters.private)
 async def nibba_nibbi(_, message):
-    if message.from_user.id == 6352107773:
+    if message.from_user.id == 6566179661:
         my_ = await _.get_users("rfxtuv")
-        me = await _.get_users(6352107773)
+        me = await _.get_users(6566179661)
         await message.reply_photo(
             photo=COUPLES_PIC, caption=C.format(me.mention, tomorrow)
         )
