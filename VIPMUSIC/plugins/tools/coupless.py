@@ -63,7 +63,7 @@ async def nibba_nibbi(_, message):
         my_ = await _.get_users("rfxtuv")
         me = await _.get_users(5540249238)
         await message.reply_photo(
-            photo=COUPLES_PIC, caption=C.format(me.mention, tomorrow)
+            photo=COUPLES_PIC, caption=CAP.format(me.mention, tomorrow)
         )
     else:
         try:
