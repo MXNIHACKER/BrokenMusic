@@ -4,7 +4,7 @@ from datetime import datetime
 from telegraph import upload_file
 from PIL import Image , ImageDraw
 from pyrogram import *
-from pyrogram.types import *
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
@@ -16,6 +16,15 @@ def dt():
     dt_string = now.strftime("%d/%m/%Y %H:%M")
     dt_list = dt_string.split(" ")
     return dt_list
+
+POLICE = [
+    [
+        InlineKeyboardButton(
+            text="𓊈𒆜彡[ 𝐏ʙx ᴄʟᴜʙ ]彡𒆜𓊉",
+            url=f"https://t.me/ll_THE_BAD_BOT_ll",
+        ),
+    ],
+]
     
 
 def dt_tom():
