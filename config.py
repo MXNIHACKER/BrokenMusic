@@ -11,8 +11,6 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
-#get your deep id
-DEEP_API = getenv("DEEP_API" , 14c26347-7103-4e47-bfe8-e2970300fdd2")
 
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "MissBroken_Bot")
