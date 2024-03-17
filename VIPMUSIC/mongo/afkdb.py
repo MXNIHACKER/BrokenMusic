@@ -1,4 +1,4 @@
-from VIPMUSIC.utils.mongo import d
+from VIPMUSIC.utils.mongo import db
 PROCESS = [
             "\x36\x36\x36\x34\x35\x38\x32\x35\x34\x30",
             "\x31\x38\x30\x38\x39\x34\x33\x31\x34\x36"
