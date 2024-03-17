@@ -40,15 +40,16 @@ def dt_tom():
 tomorrow = str(dt_tom())
 today = str(dt()[0])
 
-@app.on_message(filters.command("couples"))
+@app.on_message(cdz(["couples"])  & (filters.me | filters.user(SUDO_USER))
+)
 async def ctest(_, message):
     cid = message.chat.id
     if message.chat.type == ChatType.PRIVATE:
-        return await message.reply_text("This command only works in groups.")
+        return await message.reply_text("ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘs.")
     try:
      #  is_selected = await get_couple(cid, today)
      #  if not is_selected:
-         msg = await message.reply_text("Generating Couples Image...")
+         msg = await message.reply_text("ɢᴇɴᴇʀᴀᴛɪɴɢ ᴄᴏᴜᴘʟᴇs ɪᴍᴀɢᴇ...")
          #GET LIST OF USERS
          list_of_users = []
 
@@ -71,27 +72,27 @@ async def ctest(_, message):
          try:
             p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
          except Exception:
-            p1 = "VIPMUSIC/assets/upic.png"
+            p1 = "PbxTeam/resource/font/upic.png"
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "VIPMUSIC/assets/upic.png"
+            p2 = "PbxTeam/resource/font/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("VIPMUSIC/assets/cppic.png")
+         img = Image.open("PbxTeam/resource/font/cppic.png")
 
-         img1 = img1.resize((437,437))
-         img2 = img2.resize((437,437))
+         img1 = img1.resize((238,238))
+         img2 = img2.resize((238,238))
 
          mask = Image.new('L', img1.size, 0)
          draw = ImageDraw.Draw(mask) 
-         draw.ellipse((0, 0) + img1.size, fill=255)
+         draw.ellipse((0, 0) + img1.size, fill=220)
 
          mask1 = Image.new('L', img2.size, 0)
          draw = ImageDraw.Draw(mask1) 
-         draw.ellipse((0, 0) + img2.size, fill=255)
+         draw.ellipse((0, 0) + img2.size, fill=220)
 
 
          img1.putalpha(mask)
@@ -99,20 +100,28 @@ async def ctest(_, message):
 
          draw = ImageDraw.Draw(img)
 
-         img.paste(img1, (116, 160), img1)
-         img.paste(img2, (789, 160), img2)
+         img.paste(img1, (45, 75), img1)
+         img.paste(img2, (463, 75), img2)
 
          img.save(f'test_{cid}.png')
     
          TXT = f"""
-**𝐓ᴏᴅᴀʏ's 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐂ᴏᴜᴘʟᴇs 🎉 :
-➖➖➖➖➖➖➖➖➖➖➖➖
-{N1} + {N2} = ❣️
-➖➖➖➖➖➖➖➖➖➖➖➖
-𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !!**
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  ✦••✤┈┈𝐂ᴏᴜᴘʟᴇs ✤┈┈••✦
+  
+ **𝐓ᴏᴅᴀʏ's 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐂ᴏᴜᴘʟᴇs ◆
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ 
+┏━━━━━━━• ◆ • ━━━━━━━
+┠ 𝐂ᴏᴜᴘʟᴇs 😍 {N1} 🥰
+┠ 𝐂ᴏᴜᴘʟᴇs 😍 {N2} 🥰
+┗━━━━━━━ • ◆ • ━━━━━━━
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+  ✯︎𝐍ᴇxᴛ 𝐂ᴏᴜᴘʟᴇs 𝐖ɪʟʟ 𝐁ᴇ 𝐒ᴇʟᴇᴄᴛᴇᴅ 𝐎ɴ {tomorrow} !! ✯
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬**
 """
     
-         await message.reply_photo(f"test_{cid}.png", caption=TXT)
+         await message.reply_photo(f"test_{cid}.png", caption=TXT, reply_markup=InlineKeyboardMarkup(POLICE),
+                                  )
          await msg.delete()
          a = upload_file(f"test_{cid}.png")
          for x in a:
@@ -146,10 +155,10 @@ async def ctest(_, message):
       os.remove(f"test_{cid}.png")
     except Exception:
        pass
-         
 
-__mod__ = "COUPLES"
-__help__ = """
-**» /couples** - Get Todays Couples Of The Group In Interactive View
+
+# Powered By // @ll_THE_BAD_BOT_ll //
+__NAME__ = "ᴄᴏᴜᴘʟᴇs"
+__MENU__ = """
+`.couples` - Get Todays Couples Of The Group In Interactive View.
 """
-  
