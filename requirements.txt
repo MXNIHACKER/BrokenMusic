@@ -50,3 +50,4 @@ httpx==0.25.2
 gpytranslate
 openai==0.28.0
 mpv
+pymongo[srv]==4.6.1
