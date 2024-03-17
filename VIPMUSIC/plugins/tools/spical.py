@@ -1,12 +1,64 @@
-import os
+from VIPMUSIC import app
+from pyrogram.errors import RPCError
+from pyrogram.types import ChatMemberUpdated, InlineKeyboardMarkup, InlineKeyboardButton
+from os import environ
+from typing import Union, Optional
+from PIL import Image, ImageDraw, ImageFont
+from os import environ
+import random
+from pyrogram import Client, filters
+from pyrogram.types import ChatJoinRequest, InlineKeyboardButton, InlineKeyboardMarkup
+from PIL import Image, ImageDraw, ImageFont
+import asyncio, os, time, aiohttp
+from pathlib import Path
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+from asyncio import sleep
+from pyrogram import filters, Client, enums
+from pyrogram.enums import ParseMode
+from logging import getLogger
+from VIPMUSIC.utils.bad_ban import admin_filter
 from PIL import ImageDraw, Image, ImageFont, ImageChops
 from pyrogram import *
 from pyrogram.types import *
 from logging import getLogger
+from pyrogram import Client, filters
+import requests
+import random
+import os
+import re
+import asyncio
+import time
+from VIPMUSIC.utils.database import add_served_chat
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from VIPMUSIC.utils.database import get_assistant
+import asyncio
+from VIPMUSIC.misc import SUDOERS
+from VIPMUSIC.mongo.afkdb import PROCESS
+from pyrogram import Client, filters
+from pyrogram.errors import UserAlreadyParticipant
 from VIPMUSIC import app
+import asyncio
+import random
+from pyrogram import Client, filters
+from pyrogram.enums import ChatMemberStatus
+from pyrogram.errors import (
+    ChatAdminRequired,
+    InviteRequestSent,
+    UserAlreadyParticipant,
+    UserNotParticipant,
+)
+from VIPMUSIC.utils.database import get_assistant, is_active_chat
 
 
 
+random_photo = [
+    "https://telegra.ph/file/1949480f01355b4e87d26.jpg",
+    "https://telegra.ph/file/3ef2cc0ad2bc548bafb30.jpg",
+    "https://telegra.ph/file/a7d663cd2de689b811729.jpg",
+    "https://telegra.ph/file/6f19dc23847f5b005e922.jpg",
+    "https://telegra.ph/file/2973150dd62fd27a3a6ba.jpg",
+]
+# --------------------------------------------------------------------------------- #
 
 
 LOGGER = getLogger(__name__)
