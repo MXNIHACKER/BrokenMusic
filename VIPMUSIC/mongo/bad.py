@@ -1,9 +1,9 @@
+from config import DB_NAME, MONGO_DB_URI
+from VIPMUSIC import app
 from typing import Dict, Union
 
 from pymongo import MongoClient
-from VIPMUSIC import app
 
-from config import DB_NAME, MONGO_DB_URI
 
 client = MongoClient(MONGO_DB_URI)
 db = client[DB_NAME]
@@ -121,4 +121,3 @@ async def alpha_to_int(user_id_alphabet: str) -> int:
         user_id += str(index)
     user_id = int(user_id)
     return user_id
-  
