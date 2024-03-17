@@ -107,17 +107,17 @@ def welcomepic(pic, user, chatname, id, uname):
     background = Image.open("VIPMUSIC/assets/wel2.png")
     pfp = Image.open(pic).convert("RGBA")
     pfp = circle(pfp)
-    pfp = pfp.resize((825, 824))
+    pfp = pfp.resize((1157, 1158))
     draw = ImageDraw.Draw(background)
-    font = ImageFont.truetype('VIPMUSIC/assets/font.ttf', size=110)
+    font = ImageFont.truetype('VIPMUSIC/assets/font.ttf', size=60)
     welcome_font = ImageFont.truetype('VIPMUSIC/assets/font.ttf', size=60)
-    draw.text((2100, 1420), f'ID: {id}', fill=(12000, 12000, 12000), font=font)
-    pfp_position = (1990, 435)
+    draw.text((1800, 700), f'NAME: {user}', fill=(255, 255, 255), font=font)
+    draw.text((1800, 830), f'ID: {id}', fill=(255, 255, 255), font=font)
+    draw.text((1800, 965), f"USERNAME : {uname}", fill=(255, 255, 255), font=font)
+    pfp_position = (391, 336)
     background.paste(pfp, pfp_position, pfp)
     background.save(f"downloads/welcome#{id}.png")
     return f"downloads/welcome#{id}.png"
-
-# FUCK you bhosadiwale 
 
 
 @app.on_message(filters.command("welcome") & ~filters.private)
