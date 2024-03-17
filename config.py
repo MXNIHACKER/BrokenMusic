@@ -22,6 +22,7 @@ BOT_USERNAME2 = getenv("BOT_USERNAME2" , "miss Broken")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+DB_NAME = getenv("DB_NAME", "BrokenDB")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 16000))
 
