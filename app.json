@@ -33,6 +33,10 @@
         "value": "mongodb+srv://BADMUNDA:BADMYDAD@badhacker.i5nw9na.mongodb.net/",
         "required": true
       },
+    "DEEP_API": {
+      "description": "Your DEEP API https://deepai.org/",
+      "required": true
+      },
       "OWNER_ID": {
         "description": "𝐅𝐈𝐋𝐋 𝐇𝐄𝐑𝐄 𝐎𝐖𝐍𝐄𝐑 𝐈𝐃.",
         "value": "6898413162",
