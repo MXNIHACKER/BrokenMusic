@@ -99,11 +99,11 @@ async def nibba_nibbi(_, message):
                 c1_name = (await _.get_users(c1_id)).first_name
                 c2_name = (await _.get_users(c2_id)).first_name
                 print(c1_id, c2_id, c1_name, c2_name)
-                couple_selection_message = f"""✧ 𝗖𝗢𝗨𝗣𝗟𝗘𝗦 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 ✧
+                couple_selection_message = f"""✧  ᴄᴏᴜᴘʟᴇs ᴏғ ᴅᴀʏ ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
 [{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = 💞
 ➖➖➖➖➖➖➖➖➖➖➖➖
-𝗡𝗘𝗪 𝗖𝗢𝗨𝗣𝗟𝗘 𝗢𝗙 𝗧𝗛𝗘 𝗗𝗔𝗬 𝗖𝗔𝗡 𝗕𝗘 𝗖𝗛𝗢𝗦𝗘𝗡 𝗔𝗧 12AM {tomorrow}"""
+ɴᴇᴡ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ ᴄᴀɴ ʙɪ ᴄʜᴏsᴇɴ ᴀᴛ 12AM  {tomorrow}"""
                 await _.send_photo(
                     message.chat.id, photo=COUPLES_PIC, caption=couple_selection_message
                 )
