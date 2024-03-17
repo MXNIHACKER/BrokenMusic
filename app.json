@@ -35,6 +35,7 @@
       },
     "DEEP_API": {
       "description": "Your DEEP API https://deepai.org/",
+      "value": "d85ba1ac-4443-4e17-a4c9-d2ebf5ccfa3d",
       "required": true
       },
       "OWNER_ID": {
