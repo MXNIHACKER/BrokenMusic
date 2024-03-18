@@ -36,9 +36,10 @@ COUPLES_PIC = "https://telegra.ph/file/57ab650b9f600faeed166.jpg"
 C = """
 ✧  ᴄᴏᴜᴘʟᴇs ᴏғ ᴅᴀʏ ✧
 ➖➖➖➖➖➖➖➖➖➖➖➖
-{} + ( ♡³_🫧𝆺꯭𝅥˶֟፝͟͝β𝝰꯭‌𝞉 ꯭𝝡꯭𝞄꯭𝞌𝞉꯭𝝺꯭𝆺꯭𝅥🍷┼❤️// (https://t.me/ll_BAD_BBY_ll) + ♡³_🫧𝆺꯭𝅥🅗𝐞𝐚𝐫𝐭˶֟፝͟͝β𝐞𝐚𝐭𝆺꯭𝅥🍷┼❤️// (https://t.me/II_BAD_KUDI_II) ) = 💞
+[{c1_name}](tg://openmessage?user_id={c1_id}) + [{c2_name}](tg://openmessage?user_id={c2_id}) = 💞
 ➖➖➖➖➖➖➖➖➖➖➖➖
- ɴᴇᴡ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ ᴄᴀɴ ʙɪ ᴄʜᴏsᴇɴ ᴀᴛ 12AM {}
+➖➖➖➖➖➖➖➖➖➖➖➖
+ ɴᴇᴡ ᴄᴏᴜᴘʟᴇ ᴏғ ᴛʜᴇ ᴅᴀʏ ᴄᴀɴ ʙɪ ᴄʜᴏsᴇɴ ᴀᴛ 12AM {tomorrow}
 """
 CAP = """
 ✧  ᴄᴏᴜᴘʟᴇs ᴏғ ᴅᴀʏ ✧
