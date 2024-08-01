@@ -1,8 +1,8 @@
 import random
 from typing import Dict, List, Union
 
-from PBXMUSIC import userbot
-from PBXMUSIC.core.mongo import mongodb, pymongodb
+from VIPMUSIC import userbot
+from VIPMUSIC.core.mongo import mongodb, pymongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
