@@ -13,9 +13,9 @@ from pytgcalls.types.stream import StreamAudioEnded
 
 import config
 from strings import get_string
-from PBXMUSIC import LOGGER, YouTube, app
-from PBXMUSIC.misc import db
-from PBXMUSIC.utils.database import (
+from VIPMUSIC import LOGGER, YouTube, app
+from VIPMUSIC.misc import db
+from VIPMUSIC.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -27,11 +27,11 @@ from PBXMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from PBXMUSIC.utils.exceptions import AssistantErr
-from PBXMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from PBXMUSIC.utils.inline.play import stream_markup, stream_markup2
-from PBXMUSIC.utils.stream.autoclear import auto_clean
-from PBXMUSIC.utils.thumbnails import get_thumb
+from VIPMUSIC.utils.exceptions import AssistantErr
+from VIPMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
+from VIPMUSIC.utils.inline.play import stream_markup, stream_markup2
+from VIPMUSIC.utils.stream.autoclear import auto_clean
+from VIPMUSIC.utils.thumbnails import get_thumb
 
 autoend = {}
 counter = {}
